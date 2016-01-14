@@ -1,0 +1,18 @@
+
+
+h1, #title {
+    background-color: lightgreen;
+    text-decoration: underline;
+    color: green;
+}
+
+h2 {
+    text-decoration: underline;
+    background-color: lightgreen;
+    color: red;
+}
+
+body {
+    color: red;
+}
+
