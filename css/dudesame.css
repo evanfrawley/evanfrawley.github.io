@@ -1,10 +1,23 @@
-
-
-h1, #title {
-    background-color: lightgreen;
-    text-decoration: underline;
-    color: green;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
+.container {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    border: 3px solid black;
+    text-align: center;
+}
 
+.container ul {
+    list-style-type: none;
 
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
