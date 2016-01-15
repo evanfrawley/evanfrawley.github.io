@@ -4,11 +4,16 @@ body {
 }
 
 .container {
-    margin: auto;
+    margin-left: 7%;
+    margin-right: 7%;
     position: relative;
     width: 100%;
-    border: 3px solid black;
     text-align: center;
+}
+
+div {
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .container ul {
