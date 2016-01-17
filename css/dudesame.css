@@ -3,6 +3,16 @@ body {
     padding: 0px;
 }
 
+
+#body {
+    /*background-image: url("http://themobilealliance.org/wp-content/uploads/city-hong-kong-hong-kong-lights-evening-metropolis-buildings-skyscrapers-roads-traffic.jpg");*/
+
+}
+
+#body {
+    opacity: .5;
+}
+
 .container {
     margin-left: 7%;
     margin-right: 7%;
