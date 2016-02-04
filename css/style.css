@@ -1,0 +1,120 @@
+/* Styling for evanfrawley.me */
+
+/*
+
+container
+
+    about
+        picture
+            igm
+        about-me-text
+            text-heading
+            inner-text
+
+    projects
+        project
+            img
+            p
+
+    skills
+        skill
+            skill-img
+            skill-text
+
+    contact
+        img
+
+*/
+
+/*
+ *   General Style
+ */
+body {
+    background-image: url("../img/seattle.jpg");
+    background-position-y: 40%;
+    background-size: 100%;
+}
+
+
+.main {
+    display: block;
+    clear: both;
+    background-color: transparent;
+}
+div {
+    margin: 10px;
+    background-color: white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.section-head {
+    /*style section headers here*/
+}
+
+/*
+ *   About Style
+ */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+#navbar>li{
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.nav {
+    border: none;
+}
+
+/*
+ *   About Style
+ */
+#about {
+
+}
+/*
+ *   Projects Style
+ */
+#project {
+
+}
+
+.project {
+    border: 2px solid red;
+}
+/*
+ *   Skills Style
+ */
+#skills {
+
+}
+
+.skill {
+    border: 2px solid red;
+}
+/*
+ *   Contact Style
+ */
+#contact {
+
+}
