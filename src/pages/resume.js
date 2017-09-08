@@ -1,10 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const Resume = () => (
   <div>
-    <p>Resume</p>
-    <Link to="/">Home</Link>
+    <p>My resume can be found <a href="/Frawley_Resume.pdf" target="_blank">here</a>.</p>
   </div>
 )
 
