@@ -5,19 +5,16 @@ import Helmet from 'react-helmet'
 
 import NavLinks from './navLinks'
 
-import '../styles/normalize.css'
+import '../styles/scss/normalize.scss'
 import '../styles/scss/index.scss'
 
 const Header = () => (
   <div className="header">
     <div className="headerBar">
       <div className="headerBarLinkWrapper">
-        <h1>
-          {/*logo here perhaps*/}
-          <Link className="headerBarLink" to="/">
-            EF
-          </Link>
-        </h1>
+        <Link className="headerBarLink" to="/">
+          EF
+        </Link>
       </div>
       <div className="navLinksWrapper">
         <NavLinks />
@@ -27,12 +24,12 @@ const Header = () => (
 )
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="rootApp">
     <Helmet
       title="Evan Frawley"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Evan Frawley\'s personal site' },
+        { name: 'keywords', content: 'personal, portfolio, evan frawley, engineer, software' },
       ]}
     />
     <Header />

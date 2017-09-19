@@ -14,10 +14,6 @@ const PAGES_AND_PATHS = [
     urlPath: "/thoughts-on-stuff/",
     linkHandle: "Thoughts on Stuff"
   },
-  {
-    urlPath: "/resume/",
-    linkHandle: "Resume"
-  },
 ]
 
 const navLinkItems = PAGES_AND_PATHS.map((item) => {

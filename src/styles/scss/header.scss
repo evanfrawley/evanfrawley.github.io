@@ -1,5 +1,8 @@
+@import 'colors';
+@import 'patterns';
+
 .header {
-  background: rebeccapurple;
+  background: $palenavy;
   margin-bottom: 1.45rem;
 
   .headerBar {
@@ -18,12 +21,31 @@
 
       .headerBarLink {
         color: white;
-        text-decoration: none;
+        @include roundedButtonWithBorderRadius($white, $palenavy, 50%);
+        vertical-align: middle;
+        height: 50px;
+        width: 50px;
+        background-color: $white;
+        font-size: 18pt;
+        font-weight: 600;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 7px !important;
       }
     }
 
     .navLinksWrapper {
-      flex: 5;
+      flex: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    .headerBar {
+      .navLinksWrapper {
+        flex: 5;
+      }
     }
   }
 }
