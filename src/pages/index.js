@@ -8,10 +8,10 @@ const IndexPage = () => (
     </div>
     <div className="landingLearnMore">
       <div className="landingButton">
-        <a href="#">Contact</a>
+        <a href="/contact">Contact</a>
       </div>
       <div className="landingButton">
-        <a href="#">Resume</a>
+        <a href="/resume">Resume</a>
       </div>
     </div>
   </div>
