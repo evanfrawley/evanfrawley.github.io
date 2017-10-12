@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div className="landingContainer">
     <div className="personalTitle">
-      <h1>Developer.</h1>
+      <h1>Developer</h1>
     </div>
     <div className="landingLearnMore">
       <div className="landingButton">
