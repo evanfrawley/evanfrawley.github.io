@@ -1,2 +1,0 @@
-webpackJsonp([0x74f8163ebb23],{"./node_modules/json-loader/index.js!./.cache/json/stuff-i-do-teaching.json":function(o,e){o.exports={pathContext:{}}}});
-//# sourceMappingURL=path---stuff-i-do-teaching-a0e39f21c11f6a62c5ab.js.map
