@@ -1,0 +1,86 @@
+[
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-resume-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "resume.json",
+        "path": "/resume/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-thoughts-on-stuff-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "thoughts-on-stuff.json",
+        "path": "/thoughts-on-stuff/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stuff-i-do-free-time-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "stuff-i-do-free-time.json",
+        "path": "/stuff-i-do/free-time/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stuff-i-do-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "stuff-i-do.json",
+        "path": "/stuff-i-do/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stuff-i-do-school-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "stuff-i-do-school.json",
+        "path": "/stuff-i-do/school/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stuff-i-do-teaching-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "stuff-i-do-teaching.json",
+        "path": "/stuff-i-do/teaching/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stuff-i-do-work-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "stuff-i-do-work.json",
+        "path": "/stuff-i-do/work/"
+    }
+]

@@ -1,0 +1,651 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0fcfee4b6456d169aabcde087fd07abc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e163b35e4a54e49b269e579c82546356",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4611e21de1cc926a99db157436026817",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f41b8840785e4af11a03ee96f3aba663",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "600e1687939493a43e0e17c53c4d8bde",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aedbbd21570a9b6729b07c2d14ac46b4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7af7a53de9036340ae62c4bbddc04bdf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c0ecb22b90299332697caafe4222a750",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/evanfrawley/Github/personal/portfolio",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "60c0b4d7868675816db2970bd9462e21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/evanfrawley/Github/personal/portfolio",
+      "packageJson": {
+        "name": "evan-frawley-personal-site",
+        "description": "Evan Frawley Personal Site",
+        "version": "1.0.0",
+        "main": "n/a",
+        "author": "Evan Frawley <frawley@uw.edu>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.17"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.15"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.6.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "01e854dee710b6180f2f831cc48bdbda",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Evan Frawley"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-10-12T07:25:03.171Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6542c2948de43c8854b33299ca35647b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "path": "/404/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "updatedAt": 1507793104537,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "af389e60c246c1aebc20466442f8d322",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "updatedAt": 1507793104538,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ac71c1668d0c8d57bc75a7cc5f0fb912",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "path": "/contact/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "updatedAt": 1507793104538,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ee69dcca52060421b34deb1b6f2a89c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1507793104539,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "466ff11775d975036a6115c0efc478f4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /resume/": {
+      "path": "/resume/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/resume.js",
+      "componentChunkName": "component---src-pages-resume-js",
+      "layout": "index",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "updatedAt": 1507793104539,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/resume.js",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "658d0ad94b6ab02d251666f08ecf9b01",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "path": "/404.html",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "updatedAt": 1507793104542,
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "511bb383f2c49dfceb3d809b9ba60f13",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /thoughts-on-stuff/": {
+      "path": "/thoughts-on-stuff/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/thoughts-on-stuff/index.js",
+      "componentChunkName": "component---src-pages-thoughts-on-stuff-index-js",
+      "layout": "index",
+      "jsonName": "thoughts-on-stuff.json",
+      "internalComponentName": "ComponentThoughtsOnStuff",
+      "updatedAt": 1507793104546,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/thoughts-on-stuff/index.js",
+      "id": "SitePage /thoughts-on-stuff/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b03eabf6897dadb07eb351e46c64592",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stuff-i-do/free-time/": {
+      "path": "/stuff-i-do/free-time/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/free-time.js",
+      "componentChunkName": "component---src-pages-stuff-i-do-free-time-js",
+      "layout": "index",
+      "jsonName": "stuff-i-do-free-time.json",
+      "internalComponentName": "ComponentStuffIDoFreeTime",
+      "updatedAt": 1507793104547,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/free-time.js",
+      "id": "SitePage /stuff-i-do/free-time/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6dc3855a909d13bb7db021b16525c2b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stuff-i-do/": {
+      "path": "/stuff-i-do/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/index.js",
+      "componentChunkName": "component---src-pages-stuff-i-do-index-js",
+      "layout": "index",
+      "jsonName": "stuff-i-do.json",
+      "internalComponentName": "ComponentStuffIDo",
+      "updatedAt": 1507793104548,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/index.js",
+      "id": "SitePage /stuff-i-do/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c436920189147af0a8868d9fa3bcc82b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stuff-i-do/school/": {
+      "path": "/stuff-i-do/school/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/school.js",
+      "componentChunkName": "component---src-pages-stuff-i-do-school-js",
+      "layout": "index",
+      "jsonName": "stuff-i-do-school.json",
+      "internalComponentName": "ComponentStuffIDoSchool",
+      "updatedAt": 1507793104548,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/school.js",
+      "id": "SitePage /stuff-i-do/school/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7f2f0c56142e0858ce83e3d15c92f1c1",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stuff-i-do/teaching/": {
+      "path": "/stuff-i-do/teaching/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/teaching.js",
+      "componentChunkName": "component---src-pages-stuff-i-do-teaching-js",
+      "layout": "index",
+      "jsonName": "stuff-i-do-teaching.json",
+      "internalComponentName": "ComponentStuffIDoTeaching",
+      "updatedAt": 1507793104549,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/teaching.js",
+      "id": "SitePage /stuff-i-do/teaching/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c096054ff17b3f51e4d24da0b0a09d3e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stuff-i-do/work/": {
+      "path": "/stuff-i-do/work/",
+      "component": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/work.js",
+      "componentChunkName": "component---src-pages-stuff-i-do-work-js",
+      "layout": "index",
+      "jsonName": "stuff-i-do-work.json",
+      "internalComponentName": "ComponentStuffIDoWork",
+      "updatedAt": 1507793104549,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/evanfrawley/Github/personal/portfolio/src/pages/stuff-i-do/work.js",
+      "id": "SitePage /stuff-i-do/work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "43a2f36eb48c6f083f58d1ae3e6f0c8c",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "a189c989d219bcd18b3c6a91f8cccf47"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}
