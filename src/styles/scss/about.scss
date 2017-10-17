@@ -1,0 +1,54 @@
+@import 'colors';
+
+.aboutContainer {
+  .imageAndTaglineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .imageContainer {
+      width: 225px;
+      img {
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+      }
+    }
+    .taglineContainer {
+      width: 225px;
+      margin-top: auto;
+      margin-bottom: auto;
+      vertical-align: center;
+      .motto, .taglineQuote {
+        font-style: italic;
+        color: $darkgray;
+        text-align: center;
+      }
+      .motto {
+        font-size: 16pt;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aboutContainer {
+    .imageAndTaglineContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .imageContainer {
+        width: 325px;
+        img {
+          height: 250px;
+          width: 250px;
+        }
+      }
+      .taglineContainer {
+        width: 325px;
+        .motto {
+          font-size: 18pt;
+        }
+      }
+    }
+  }
+}
