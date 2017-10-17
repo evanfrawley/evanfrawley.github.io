@@ -9,7 +9,7 @@ const About = () => (
       </div>
       <div className={"taglineContainer"}>
         <p className={"motto"}>Personal Motto</p>
-        <p className={"taglineQuote"}>"Don't go to sleep unless you've a better version of you when you woke up."</p>
+        <p className={"taglineQuote"}>"Don't go to sleep unless you're a better version of yourself than when you woke up."</p>
       </div>
     </div>
     <div>
