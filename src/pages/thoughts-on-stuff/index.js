@@ -1,11 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import {Box, Heading, Text} from "rebass";
 
 const ThoughtsOnStuff = () => (
-  <div>
-    <p>Thoughts on stuff</p>
-    <p>yet another tech blog from someone who doesn&#39;t know shit</p>
-  </div>
-)
+  <Box mt={3}>
+    <Heading is="h1">Thoughts on stuff</Heading>
+    <Text mt={3}>Soon to be yet another tech blog from yet another techie...</Text>
+  </Box>
+);
 
 export default ThoughtsOnStuff

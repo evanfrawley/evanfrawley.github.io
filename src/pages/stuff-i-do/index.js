@@ -1,40 +1,17 @@
 import React from 'react';
-import Link from 'gatsby-link';
-
-const STUFF_I_DO_PATH = '/stuff-i-do'
-const STUFF_I_DO_ITEMS = [
-  {
-    urlPath: "/school",
-    linkHandle : "School",
-  },
-  {
-    urlPath: "/work",
-    linkHandle : "Work",
-  },
-  {
-    urlPath: "/free-time",
-    linkHandle : "Free Time",
-  },
-  {
-    urlPath: "/teaching",
-    linkHandle : "Teaching",
-  },
-]
+import {Box, Heading} from "rebass";
+import {FreeTime, School, Teaching, Work} from "../../components/stuff-i-do/index";
 
 class StuffIDo extends React.Component {
   render() {
-    const stuffIDoItemsMappedToJsx = STUFF_I_DO_ITEMS.map((item) => {
-      return (
-        <div key={item.urlPath}>
-          <Link to={`${STUFF_I_DO_PATH}${item.urlPath}`}>{item.linkHandle}</Link>
-        </div>
-      )
-    })
     return(
-      <div>
-        <p>stuff i do!</p>
-        { stuffIDoItemsMappedToJsx }
-      </div>
+      <Box>
+        <Heading is="h1">Stuff I Do</Heading>
+        <FreeTime />
+        <Teaching />
+        <Work />
+        <School />
+      </Box>
     )
   }
 }

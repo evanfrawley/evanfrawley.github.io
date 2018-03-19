@@ -1,15 +1,14 @@
 import React from 'react';
-import {Box, Heading} from "rebass";
-import ContactButton from "../components/ContactButton";
+import {Box} from "rebass";
+import ContactButton from "../ContactButton";
 
-const Contact = () => (
-  <Box>
-    <Heading is="h1">Contact me!</Heading>
-    <ContactButton>
-      <i className="fas fa-envelope"/>
-    </ContactButton>
+const ButtonRack = (props) => (
+  <Box {...props}>
     <ContactButton>
       <i className="fas fa-file-alt"/>
+    </ContactButton>
+    <ContactButton>
+      <i className="fas fa-envelope"/>
     </ContactButton>
     <ContactButton>
       <i className="fab fa-github"/>
@@ -23,4 +22,4 @@ const Contact = () => (
   </Box>
 );
 
-export default Contact
+export default ButtonRack

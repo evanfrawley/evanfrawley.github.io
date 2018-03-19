@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import {Box} from "rebass";
 
 const PAGES_AND_PATHS = [
   {
@@ -14,20 +15,20 @@ const PAGES_AND_PATHS = [
     urlPath: "/thoughts-on-stuff/",
     linkHandle: "Thoughts on Stuff"
   },
-]
+];
 
 const navLinkItems = PAGES_AND_PATHS.map((item) => {
   return(
-    <div className="navLinkContainer" key={ item.urlPath }>
+    <Box className="navLinkContainer" key={ item.urlPath }>
       <Link className="navLink" to={ item.urlPath }>{ item.linkHandle }</Link>
-    </div>
+    </Box>
   )
-})
+});
 
 const NavLinks = () => (
-  <div className="navLinks">
+  <Box className="navLinks">
     { navLinkItems }
-  </div>
-)
+  </Box>
+);
 
 export default NavLinks;

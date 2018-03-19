@@ -1,20 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import ButtonRack from "../components/ButtonRack";
+import FlexFullHeight from "../components/FlexFullHeight";
+import {Box, Heading} from "rebass";
 
 const IndexPage = () => (
-  <div className="landingContainer">
-    <div className="personalTitle">
-      <h1>Developer</h1>
-    </div>
-    <div className="landingLearnMore">
-      <div className="landingButton">
-        <a href="/contact">Contact</a>
-      </div>
-      <div className="landingButton">
-        <a href="/resume">Resume</a>
-      </div>
-    </div>
-  </div>
-)
+  <FlexFullHeight w={1} direction="column" align="center" justify="center">
+    <Box>
+      <Heading f={6} is="h1">Developer</Heading>
+    </Box>
+    <ButtonRack mt={2} />
+  </FlexFullHeight>
+);
 
 export default IndexPage
